@@ -1,0 +1,448 @@
+{
+  "pbtResults": {
+    "2.5 Write property test for invalid inputs always rejected (Property 2)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790173456964
+    },
+    "3.3 Write property test for valid form submission always creates a transaction (Property 1)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790173578762
+    }
+  },
+  "executionHistory": {
+    "1. Set up project structure and testing scaffolding": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023236
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172042008
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172270350
+      }
+    ],
+    "2.1 Implement `StorageService` (`read`, `write`, `remove`) with `try/catch` guards": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023411
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172274827
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172528298
+      }
+    ],
+    "2.2 Write unit tests for `StorageService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023519
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172540699
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173472959
+      }
+    ],
+    "2.3 Implement `Validator` (`validateName`, `validateAmount`, `validateCategory`, `validateCategoryLabel`, `validateForm`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023627
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172275253
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172532380
+      }
+    ],
+    "2.4 Write unit tests for `Validator`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023730
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172544971
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173476987
+      }
+    ],
+    "2.5 Write property test for invalid inputs always rejected (Property 2)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023802
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172550408
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173481307
+      }
+    ],
+    "3.1 Implement `TransactionService` (`init`, `getAll`, `add`, `remove`, `getCategoryTotals`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023866
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172554745
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173485923
+      }
+    ],
+    "3.2 Write unit tests for `TransactionService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172023933
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173496960
+      }
+    ],
+    "3.3 Write property test for valid form submission always creates a transaction (Property 1)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024004
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173501348
+      }
+    ],
+    "3.4 Write property test for transaction list init restores storage order (Property 4)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024068
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173505485
+      }
+    ],
+    "3.5 Write property test for newly added transaction appears at the top (Property 5)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024131
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173510083
+      }
+    ],
+    "3.6 Write property test for deletion removes transaction from list and storage (Property 7)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024189
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173514471
+      }
+    ],
+    "3.7 Write property test for transaction serialisation round-trip (Property 11)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024262
+      }
+    ],
+    "3.8 Implement `BalanceService` (`compute`, `format`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024331
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172558687
+      },
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173490277
+      }
+    ],
+    "3.9 Write unit tests for `BalanceService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024386
+      }
+    ],
+    "3.10 Write property test for balance equals sum of all transaction amounts (Property 8)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024449
+      }
+    ],
+    "4. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024513
+      }
+    ],
+    "5.1 Implement `CategoryService` (`init`, `getAll`, `getCustom`, `add`, `remove`, `isReferenced`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024573
+      }
+    ],
+    "5.2 Write unit tests for `CategoryService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024639
+      }
+    ],
+    "5.3 Write property test for category init merges defaults and custom storage (Property 12)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024704
+      }
+    ],
+    "5.4 Write property test for valid custom category addition persists (Property 13)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024768
+      }
+    ],
+    "5.5 Write property test for invalid custom category labels always rejected (Property 14)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024824
+      }
+    ],
+    "5.6 Write property test for referenced categories cannot be deleted (Property 15)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024894
+      }
+    ],
+    "5.7 Implement `SortService` (`sort`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172024951
+      }
+    ],
+    "5.8 Write unit tests for `SortService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025013
+      }
+    ],
+    "5.9 Write property test for sort produces a correctly ordered list (Property 16)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025134
+      }
+    ],
+    "6.1 Implement `ThemeService` (`init`, `apply`, `toggle`, `getCurrent`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025202
+      }
+    ],
+    "6.2 Write unit tests for `ThemeService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025267
+      }
+    ],
+    "6.3 Write property test for theme persistence round-trip (Property 17)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025330
+      }
+    ],
+    "6.4 Implement `ChartService` (`init`, `update`, `assignColours`)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025384
+      }
+    ],
+    "6.5 Write unit tests for `ChartService`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025447
+      }
+    ],
+    "6.6 Write property test for chart colour assignment is always unique (Property 10)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025512
+      }
+    ],
+    "6.7 Write property test for chart data groups transactions by category correctly (Property 9)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025569
+      }
+    ],
+    "7. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025630
+      }
+    ],
+    "8.1 Author `index.html` — full semantic markup": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025693
+      }
+    ],
+    "8.2 Implement `UIRenderer` in `js/app.js`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025752
+      }
+    ],
+    "8.3 Write property test for transaction display format is always correct (Property 6)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025813
+      }
+    ],
+    "8.4 Write property test for form resets after every successful submission (Property 3)": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025871
+      }
+    ],
+    "8.5 Author `css/style.css` — layout, theming, responsiveness": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025935
+      }
+    ],
+    "9.1 Implement `App.init` in `js/app.js`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172025998
+      }
+    ],
+    "9.2 Write unit tests for `App.init` edge cases": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172026054
+      }
+    ],
+    "10. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172026182
+      }
+    ],
+    "11.1 Verify static-asset paths and CDN references in `index.html`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172026255
+      }
+    ],
+    "11.2 Wire sort into transaction add/delete flows": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172026308
+      }
+    ],
+    "11.3 Write integration tests for `App.init` full-flow": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172026369
+      }
+    ],
+    "12. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790172026430
+      }
+    ],
+    "2. Implement `StorageService` and `Validator`": [
+      {
+        "executionId": "b3780c16-4c16-4c57-9727-13e9e5aa588f",
+        "chatSessionId": "sess_2caecd7f-e805-40c3-b72e-433c5250ffec",
+        "timestamp": 1790173481371
+      }
+    ]
+  }
+}

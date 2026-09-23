@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense & Budget Visualizer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="header-icon" aria-hidden="true">💰</span>
+        <h1 class="header-title">Expense Tracker</h1>
+      </div>
+      <button id="themeToggle" class="btn-icon" aria-label="Switch to dark mode" title="Toggle theme">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== STORAGE WARNING (hidden by default) ===== -->
+  <div id="storageWarning" class="banner banner--warn" role="alert" hidden>
+    ⚠️ localStorage is unavailable. Data will not be saved between sessions.
+  </div>
+
+  <!-- ===== DATA ERROR (hidden by default) ===== -->
+  <div id="dataError" class="banner banner--error" role="alert" hidden>
+    ⚠️ Saved data was corrupted and has been cleared.
+  </div>
+
+  <main class="app-main">
+
+    <!-- ===== LEFT COLUMN ===== -->
+    <section class="col-left" aria-label="Add transaction and categories">
+
+      <!-- Balance Display -->
+      <div class="balance-card">
+        <p class="balance-label">Total Spending</p>
+        <p class="balance-amount" id="balanceDisplay">Rp 0.00</p>
+      </div>
+
+      <!-- Input Form -->
+      <div class="card">
+        <h2 class="card-title">Add Transaction</h2>
+        <form id="transactionForm" novalidate>
+
+          <div class="form-group">
+            <label for="itemName">Item Name</label>
+            <input
+              type="text"
+              id="itemName"
+              name="itemName"
+              maxlength="100"
+              placeholder="e.g. Lunch, Bus ticket…"
+              autocomplete="off"
+            />
+            <span class="field-error" id="itemNameError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="amount">Amount (Rp)</label>
+            <input
+              type="number"
+              id="amount"
+              name="amount"
+              min="0.01"
+              max="999999999.99"
+              step="any"
+              placeholder="0.00"
+            />
+            <span class="field-error" id="amountError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="">-- Select category --</option>
+            </select>
+            <span class="field-error" id="categoryError" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div id="noCategoryMsg" class="info-msg" hidden>
+            Please add a category below before submitting.
+          </div>
+
+          <button type="submit" id="submitBtn" class="btn btn--primary btn--full">
+            + Add Transaction
+          </button>
+        </form>
+      </div>
+
+      <!-- Custom Category Manager -->
+      <div class="card">
+        <h2 class="card-title">Custom Categories</h2>
+        <form id="categoryForm" novalidate>
+          <div class="form-group form-group--inline">
+            <input
+              type="text"
+              id="newCategory"
+              name="newCategory"
+              maxlength="50"
+              placeholder="New category name"
+              autocomplete="off"
+              aria-label="New category name"
+            />
+            <button type="submit" class="btn btn--secondary">Add</button>
+          </div>
+          <span class="field-error" id="newCategoryError" role="alert" aria-live="polite"></span>
+        </form>
+
+        <ul id="customCategoryList" class="tag-list" aria-label="Custom categories"></ul>
+      </div>
+
+    </section>
+
+    <!-- ===== RIGHT COLUMN ===== -->
+    <section class="col-right" aria-label="Chart and transaction list">
+
+      <!-- Pie Chart -->
+      <div class="card chart-card">
+        <h2 class="card-title">Spending by Category</h2>
+        <div class="chart-wrapper">
+          <canvas id="spendingChart" role="img" aria-label="Pie chart of spending by category"></canvas>
+          <p id="chartEmpty" class="empty-state">No data yet — add a transaction to see your chart.</p>
+        </div>
+      </div>
+
+      <!-- Sort Control -->
+      <div class="sort-bar">
+        <label for="sortControl" class="sort-label">Sort by:</label>
+        <select id="sortControl" aria-label="Sort transactions">
+          <option value="">Default (newest first)</option>
+          <option value="amount-asc">Amount ↑ (low → high)</option>
+          <option value="amount-desc">Amount ↓ (high → low)</option>
+          <option value="category-asc">Category A → Z</option>
+          <option value="category-desc">Category Z → A</option>
+        </select>
+      </div>
+
+      <!-- Transaction List -->
+      <div class="card list-card">
+        <h2 class="card-title">Transactions</h2>
+        <ul id="transactionList" class="tx-list" aria-label="Transaction list" aria-live="polite">
+          <li id="emptyState" class="empty-state">No transactions yet. Add one above!</li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>Expense &amp; Budget Visualizer &mdash; Student Project</p>
+  </footer>
+
+  <!-- Chart.js CDN -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"
+    onerror="window.__chartJsFailed=true"
+  ></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
